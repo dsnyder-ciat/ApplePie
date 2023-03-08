@@ -16,6 +16,7 @@
 		0C10877A29B825E600B21E9A /* ApplePieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C10877929B825E600B21E9A /* ApplePieTests.swift */; };
 		0C10878429B825E600B21E9A /* ApplePieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C10878329B825E600B21E9A /* ApplePieUITests.swift */; };
 		0C10878629B825E600B21E9A /* ApplePieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C10878529B825E600B21E9A /* ApplePieUITestsLaunchTests.swift */; };
+		0C10879329B8329F00B21E9A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C10879229B8329F00B21E9A /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0C10877F29B825E600B21E9A /* ApplePieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C10878329B825E600B21E9A /* ApplePieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieUITests.swift; sourceTree = "<group>"; };
 		0C10878529B825E600B21E9A /* ApplePieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C10879229B8329F00B21E9A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0C10876229B825E400B21E9A /* AppDelegate.swift */,
 				0C10876429B825E400B21E9A /* SceneDelegate.swift */,
 				0C10876629B825E400B21E9A /* ViewController.swift */,
+				0C10879229B8329F00B21E9A /* Game.swift */,
 				0C10876829B825E400B21E9A /* Main.storyboard */,
 				0C10876B29B825E600B21E9A /* Assets.xcassets */,
 				0C10876D29B825E600B21E9A /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				0C10876729B825E400B21E9A /* ViewController.swift in Sources */,
 				0C10876329B825E400B21E9A /* AppDelegate.swift in Sources */,
 				0C10876529B825E400B21E9A /* SceneDelegate.swift in Sources */,
+				0C10879329B8329F00B21E9A /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,9 +455,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snyder.ciat.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -478,9 +485,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snyder.ciat.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
